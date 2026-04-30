@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ButtonTheme from './components/ButtonTheme.vue';
+import ProfileFactList from './components/ProfileFactList.vue';
 import ProfileInfo from './components/ProfileInfo.vue';
 
 
@@ -11,8 +12,9 @@ import ProfileInfo from './components/ProfileInfo.vue';
     <header>
       <ButtonTheme />
     </header>
-    <main>
+    <main class="flex flex-col gap-7.5">
       <ProfileInfo />
+      <ProfileFactList />
     </main>
   </div>
 </template>
