@@ -1,2 +1,8 @@
 @import "tailwindcss";
 @plugin "daisyui/index.js";
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+}
