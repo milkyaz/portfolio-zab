@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'Poppins';
-  src: url('./assets/fonts/Poppins-Medium.ttf');
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Medium.ttf");
   font-style: normal;
 }
 
 :root {
-  --font-poppins: 'Poppins';
+  --font-poppins: "Poppins", sans-serif;
 }
