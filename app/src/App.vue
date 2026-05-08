@@ -31,6 +31,6 @@ import TabSwitch from './components/TabSwitch.vue';
 @reference "@/style.css";
 
 .wrapp {
-  @apply flex flex-col gap-7.5 p-5;
+  @apply flex flex-col gap-7.5 p-5 bg-[#0C151D];
 }
 </style>
