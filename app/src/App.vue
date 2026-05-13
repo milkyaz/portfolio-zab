@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AppFooter from './components/AppFooter.vue';
 import ButtonTheme from './components/ButtonTheme.vue';
 import ProfileButton from './components/ProfileButton.vue';
 import ProfileFactList from './components/ProfileFactList.vue';
@@ -25,6 +26,7 @@ import TabSwitch from './components/TabSwitch.vue';
         <TabSwitch />
       </section>
     </main>
+    <footer><AppFooter /></footer>
   </div>
 </template>
 <style scoped>
