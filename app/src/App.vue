@@ -22,7 +22,7 @@ import TabSwitch from './components/TabSwitch.vue';
         <ProfileButton text="Download CV" icon="mdi:arrow-collapse-down" icon-size="16" icon-height="14" />
         <ProfileButton text="Contact me" :is-link="true" />
       </section>
-      <section>
+      <section class="mx-auto">
         <TabSwitch />
       </section>
     </main>
@@ -33,6 +33,6 @@ import TabSwitch from './components/TabSwitch.vue';
 @reference "@/style.css";
 
 .wrapp {
-  @apply flex flex-col gap-7.5 p-5 bg-[#0C151D];
+  @apply flex flex-col gap-7.5 bg-[#0C151D];
 }
 </style>

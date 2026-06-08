@@ -9,7 +9,7 @@ import SkillsContent from './SkillsContent.vue';
 </script>
 
 <template>
-    <div class="tabs tabs-xl tabs-box justify-between bg-[#0B1218] px-3 py-3">
+    <div class="tabs tabs-xl tabs-box justify-between bg-[#0B1218] px-3 py-3 mx-3 max-w-87.5">
         <input type="radio" name="my_tabs_1" class="tab px-10 m-2" aria-label="Portfolio" />
         <div class="tab-content">
             <PortfolioContent />
