@@ -15,10 +15,13 @@ const { title, image, link } = defineProps<Props>();
 </script>
 
 <template>
-    <div class="w-full h-52.5 rounded-xl overflow-hidden">
-        <a :href="link" target="__blank">
-            <img :src="image" :alt="title" class="w-full h-full object-content" />
-        </a>
+    <div>
+        <h2 class="text-center text-base-content font-medium mb-3">{{ title }}</h2>
+        <div class="w-full h-65 rounded-xl overflow-hidden group">
+            <a :href="link" target="_blank" rel="noopener noreferrer" class="block transition-transform hover:scale-105">
+                <img :src="image" :alt="title" class="w-full h-full object-cover" />
+            </a>
+        </div>
     </div>
 </template>
 

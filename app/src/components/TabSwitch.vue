@@ -1,24 +1,17 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import { Icon } from '@iconify/vue';
 import PortfolioContent from './PortfolioContent.vue';
 import SkillsContent from './SkillsContent.vue';
-
-
-
 </script>
 
 <template>
-    <div class="tabs tabs-xl tabs-box justify-between bg-[#0B1218] px-3 py-3 mx-3 max-w-87.5">
-        <input type="radio" name="my_tabs_1" class="tab px-10 m-2" aria-label="Portfolio" />
+    <div class="tabs tabs-xl tabs-box justify-center bg-base-200 px-3 py-3 mx-3 max-w-md">
+        <input type="radio" name="my_tabs_1" class="tab px-10 m-2" aria-label="Portfolio" checked />
         <div class="tab-content">
             <PortfolioContent />
         </div>
-        <input type="radio" name="my_tabs_1" class="tab px-10 m-2" aria-label="Skills" checked="checked" />
-        <div class="tab-content">
-            <div class="overflow-x-auto">
-                <SkillsContent />
-            </div>
+        <input type="radio" name="my_tabs_1" class="tab px-10 m-2" aria-label="Skills" />
+        <div class="tab-content overflow-hidden">
+            <SkillsContent />
         </div>
     </div>
 </template>

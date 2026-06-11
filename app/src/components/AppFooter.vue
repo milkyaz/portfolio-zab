@@ -5,9 +5,9 @@ import { Icon } from '@iconify/vue';
 </script>
 
 <template>
-    <div class="flex flex-row items-center justify-center gap-1">
+    <div class="flex flex-row items-center justify-center gap-1.5 py-4">
         <Icon icon="ph:copyright-thin" />
-        <h2 class="text-sm">Zaburunov Daniil. 2026 All rigths reserved</h2>
+        <p class="text-xs text-base-content/70 leading-relaxed tracking-wide">Zaburunov Daniil. 2026 All rights reserved</p>
     </div>
 </template>
 
