@@ -29,15 +29,15 @@ jobs:
           cache-dependency-path: "app/yarn.lock"
 
       - name: Install dependencies
-        working-directory: client
+        working-directory: app
         run: yarn install --frozen-lockfile
 
       - name: Build
-        working-directory: client
+        working-directory: app
         run: yarn build-only
 
       - name: SPA fallback
-        run: cp app/dist/index.html client/dist/404.html
+        run: cp app/dist/index.html app/dist/404.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
