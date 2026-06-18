@@ -9,9 +9,9 @@ const {title, description} = defineProps<Props>()
 </script>
 
 <template>
-    <div class="text-center font-[--font-poppins]">
-        <h2 class="text-base text-[#C3C7CB]">{{ title }}</h2>
-        <p class="text-sm text-[#A3ABB2]">{{ description }}</p>
+    <div class="text-center font-[--font-poppins] max-w-[120px]">
+        <h3 class="text-base text-base-content font-medium leading-tight">{{ title }}</h3>
+        <p class="text-sm text-base-content/70 mt-2 leading-relaxed">{{ description }}</p>
     </div>
 </template>
 
