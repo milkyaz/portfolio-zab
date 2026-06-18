@@ -21,7 +21,8 @@ const { text, isLink, icon = '' } = defineProps<Props>()
         <Icon :icon="icon" :width="iconWidth" :height="iconHeight" class="transition-transform duration-300" />
     </button>
     <button v-if="isLink" class="btn btn-lg btn-outline btn-primary rounded-xl font-medium transition-all duration-300 ease-out hover:shadow-lg hover:-translate-y-1">
-        <span class="text-xs px-6">{{ text }}</span>
+        <a class="text-xs px-2" href="tel:+79969130210">{{ text }}</a>
+      <Icon icon="mdi:telephone" />
     </button>
 </template>
 

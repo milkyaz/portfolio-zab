@@ -3,22 +3,22 @@ import { Icon } from '@iconify/vue';
 
 const social = [
   {
-    link: 'https://github.com',
+    link: 'https://github.com/milkyaz',
     icon: 'mdi:github',
     key: 'github'
   },
   {
-    link: 'https://telegram.me',
+    link: 'https://t.me/zab_dd',
     icon: 'mdi:telegram',
     key: 'telegram'
   },
   {
-    link: 'mailto:mail@example.com',
+    link: 'mailto:zaburunov.2000@gmail.com',
     icon: 'mdi:gmail',
     key: 'mail'
   },
   {
-    link: 'https://vk.com',
+    link: 'https://vk.com/zab_dd',
     icon: 'mdi:vk',
     key: 'vk'
   },
