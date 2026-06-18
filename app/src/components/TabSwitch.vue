@@ -5,11 +5,11 @@ import SkillsContent from './SkillsContent.vue';
 
 <template>
     <div class="tabs tabs-xl tabs-box justify-center bg-base-200 px-3 py-3 mx-3 max-w-md">
-        <input type="radio" name="my_tabs_1" class="tab px-10 m-2" aria-label="Portfolio" checked />
+        <input type="radio" name="my_tabs_1" class="tab px-10 m-2 hover:text-primary checked:text-primary checked:bg-base-100" aria-label="Portfolio" checked />
         <div class="tab-content">
             <PortfolioContent />
         </div>
-        <input type="radio" name="my_tabs_1" class="tab px-10 m-2" aria-label="Skills" />
+        <input type="radio" name="my_tabs_1" class="tab px-10 m-2 hover:text-primary checked:text-primary checked:bg-base-100" aria-label="Skills"  />
         <div class="tab-content overflow-hidden">
             <SkillsContent />
         </div>
