@@ -5,10 +5,9 @@ type Props = {
     title: string;
     icon: string;
     label: string;
-    colorBg?: string;
     link?: string;
 }
-const { title, icon, label, colorBg, link } = defineProps<Props>()
+const { title, icon, label, link } = defineProps<Props>()
 
 </script>
 
